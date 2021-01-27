@@ -39,7 +39,6 @@ Dockerfile示例如下：
 ```Dockerfile
 FROM openjdk:jre-8
 
-
 ADD target/xxx.jar ./
 
 ENTRYPOINT java \
