@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: swill.icu
+subtitle: '养了一只程序员的猫'
 description: ''
 keywords:
-author: John Doe
+author: '养了一只程序员的猫'
 language: en
 timezone: ''
 
@@ -103,4 +103,6 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: git@github.com:qyqcswill/qyqcswill.github.io.git
+  branch: master
