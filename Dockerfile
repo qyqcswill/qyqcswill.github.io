@@ -1,4 +1,5 @@
 FROM nginx
+RUN sed 
 
 COPY public/ /usr/share/nginx/html/
 
